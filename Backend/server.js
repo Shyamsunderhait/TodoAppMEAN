@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 
 mongoose
   .connect(
-    "mongodb+srv://shyamsunderhait:shyamsunderhait@clustertshirtecom.yx2xo.mongodb.net/",
+    "mongodblink/",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
